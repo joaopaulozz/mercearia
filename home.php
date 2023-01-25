@@ -125,8 +125,8 @@
                         else
                             $c = $a/$b;
 
-                        echo "O cliente tem um desconto VIP!<br>";
-                        echo "O resultado da que o cliente terá que pagar é: $c";
+                        echo "<center>O cliente tem um desconto VIP!<center><br>";
+                        echo "<center>Total R$: $c <center>";
                         
                     }
                 }
@@ -141,8 +141,8 @@
                         else
                             $c = $a/$b;
 
-                        echo "O cliente NAO tem nenhum desconto VIP!<br>";
-                        echo "O resultado da que o cliente terá que pagar é: $c";
+                        echo "<center>O cliente NAO tem nenhum desconto VIP!<center><br>";
+                        echo "<center>Total R$: $c<center>";
 
                 }
 
@@ -160,7 +160,7 @@
                     else
                         $c = $a/$b;
 
-                    echo "O resultado da que o cliente terá que pagar é: $c";
+                    echo "<center>Total R$: $c<center>";
                     
                 }
             }
